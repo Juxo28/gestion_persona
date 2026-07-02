@@ -9,6 +9,6 @@ class persona
 
     public function Saludar()
         {
-        echo "Hola mi nombre es: ".$this->nombre. " " .$this->apellido;
+        return "Hola mi nombre es: ".$this->nombre. " " .$this->apellido . ", mi correo es: " .$this->correo. " y tengo " .$this->edad. " años". "<br>";
     }
 }
