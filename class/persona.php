@@ -1,9 +1,13 @@
-<?php 
+<?php
 
-class persona 
+class persona
 {
-    public function Saludar ()
-     {
+    public $nombre;
+    public $edad;
+    public $correo;
+
+    public function Saludar()
+        {
         echo "Hola mi nombre es: ";
     }
 }
