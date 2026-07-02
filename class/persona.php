@@ -17,6 +17,7 @@ class persona
 
     public function Saludar()
         {
-        return "Hola mi nombre es: ".$this->nombre. " " .$this->apellido . ", mi correo es: " .$this->correo. " y tengo " .$this->edad. " años". "<br>";
+        return "Hola mi nombre es: ".$this->nombre. " " .$this->apellido . ", mi correo es: " .$this->correo. " y tengo " .$this->edad. " años". "<br><br>";
     }
 }
+
