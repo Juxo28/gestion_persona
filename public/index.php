@@ -3,6 +3,6 @@
 require_once "../class/persona.php";
 
 
-$julian = new Persona();
+$david = new Persona();
 
-$julian->saludar();
+$david->saludar();
